@@ -1,0 +1,90 @@
+body{background-color:pink; margin:0; padding:0;}
+@font-face{font-family :"picturama"; src:url('../font/picturama.otf')}
+@font-face{font-family :"Candy"; src:url('../font/Candy.ttf')}
+@font-face{font-family :"Cheese Burger"; src:url('../font/Cheese Burger.otf')}
+.global{
+	widht:100%;
+	height:630px;
+	background-color:#E6E6FA;
+}
+
+.header{
+	width:100%;
+	height:150px;
+	background-color:#F0FFFF;
+}
+.header h1 {
+	font-family:Cheese Burger;
+	margin-left:20px;
+	font-size:50px;
+}
+
+.nav{
+	width:100%;
+	height:50px;
+	background-color:#F0F8FF;
+	
+}
+
+.content{
+	width:100%;
+	height:450px;
+	background-color:#FFFAF0;
+	float:left;
+}
+.content h2 {
+	width:450px;
+	font-family:picturama;
+	background-color:LightBlue ;
+	border-radius:10px 10px 10px 10px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:20px;
+}
+.texte p{
+	padding:15px;
+	background-color:LightBlue ;
+	border-radius:10px 10px 10px 10px;
+	margin:25px;
+	text-align:center;
+}
+.bloc-image{
+	width:250px;
+	height:250px;
+	background-color:pink;
+	margin:20px;
+	float:left;
+	border-radius:20px 20px 20px 20px;
+}
+.content img{
+	border-radius:20px 20px 20px 20px;
+}
+#menu{
+	list-style-type:none;
+	height:40px;
+	padding:0;
+	margin:0;
+	font-family:arial;
+	font-size:22px;
+	text-align:center;
+	font-family:Candy;
+}
+#menu li {
+	float:left;
+	position:relative;
+	padding:0;
+	line-height:8px;
+	width:25%;
+}
+#menu li a {
+	display:block;
+	padding:15px 2px;
+	color:darklavender;
+	text-decoration:none;	
+}
+#menu li:hover {
+	background:lavender;
+}
+#menu li a:hover {
+	color:#6495ED;
+}
